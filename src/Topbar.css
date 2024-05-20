@@ -1,0 +1,29 @@
+/* Topbar.css */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topbar-left h2 {
+    margin: 0;
+    color: #6200ea;
+  }
+  
+  .topbar-right button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #6200ea;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .topbar-right button:hover {
+    background-color: #3700b3;
+  }
+  
